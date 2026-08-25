@@ -14,6 +14,6 @@ CREATE TABLE pets (
     especie VARCHAR(50) NOT NULL,
     raca VARCHAR(50) NOT NULL,
     idade INT NOT NULL,
-    
+    usuario_id INT,
     FOREIGN KEY (usuario_id) REFERENCES usuarios(id)
 );
