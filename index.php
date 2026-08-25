@@ -19,7 +19,7 @@ $aumigos = mysqli_query($conexao, "SELECT * FROM pets");
     </header>
 
     <main>
-         <h2>Cadastre os Usuarios!</h2>
+         <h2>Cadastro de Usuarios!</h2>
         <form action="public/usuarios/cadastrar_usuario.php" method="POST">
             <label for="nome">Nome:</label>
             <input type="text" name="nome">
