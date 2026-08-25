@@ -1,0 +1,35 @@
+# SISTEMA DE GERENCIAMENTO DE PET SHOP
+
+Sistema desenvolvido em **PHP, MySQL, HTML e CSS** para o gerenciamento pets de um pet shop
+## Funcionalidades
+
+- cadastro de clientes
+- Listar clientes
+- Editar clientes
+- Excluir clientes
+- Vizualizar os dados do cliente
+- Cadastrar animais
+- Listar animais
+- Editar animais
+- Excluir animais
+- Associar um animal a um cliente
+- Exibir o nome do responsável pelo animal
+## Tecnologias
+
+- PHP
+- MySQL
+- HTML
+- CSS
+- XAMPP
+
+## Como executar
+
+1. Coloque a pasta do projeto dentro da pasta `htdocs` do XAMPP.
+2. Inicie o **Apache** e o **MySQL** no XAMPP.
+3. Acesse o `phpMyAdmin`.
+4. Crie o banco de dados e importe o arquivo `banco.sql`.
+5. Configure a conexão com o banco no arquivo PHP responsável pela conexão.
+6. Acesse o projeto pelo navegador:
+
+```text
+http://localhost/aumigos_pet
