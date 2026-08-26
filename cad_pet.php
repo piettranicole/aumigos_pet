@@ -12,9 +12,6 @@
             <label for="idade">Idade:</label>
             <input type="number" name="idade">
             <br>
-            <label for="idade">Idade:</label>
-            <input type="number" name="idade">
-            <br>
             <label for="id">Id:</label>
             <input type="int" name="id">
             <br>
